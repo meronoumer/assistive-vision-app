@@ -1,0 +1,7 @@
+tensorflow>=2.10.0
+tensorflow-datasets
+numpy
+psutil
+matplotlib
+pillow
+pycocotools
