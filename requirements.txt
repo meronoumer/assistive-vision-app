@@ -7,4 +7,5 @@ pillow
 pycocotools
 pyttsx3
 gTTS
+opencv-python
 playsound
