@@ -1,0 +1,7 @@
+kivy
+opencv-python
+numpy
+Pillow
+pyttsx3
+tensorflow
+tensorflow-lite

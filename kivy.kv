@@ -1,0 +1,21 @@
+<CameraScreen>:
+    orientation: 'vertical'
+    BoxLayout:
+        size_hint_y: 0.1
+        Button:
+            text: 'Start/Stop'
+            on_release: root.on_start_stop()
+        Button:
+            text: 'Capture'
+            on_release: root.on_capture()
+        ToggleButton:
+            text: 'Sound'
+            state: 'down' if root.sound_on else 'normal'
+            on_state: root.sound_on = (self.state=='down')
+    BoxLayout:
+        Label:
+            text: 'Camera preview placeholder (implement texture updates)'
+    BoxLayout:
+        size_hint_y: 0.2
+        Label:
+            text: 'Settings: adjust interval, threshold, voice in Settings screen.'
