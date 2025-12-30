@@ -5,3 +5,6 @@ psutil
 matplotlib
 pillow
 pycocotools
+pyttsx3
+gTTS
+playsound
